@@ -1,0 +1,7 @@
+SENTRY_AUTH_TOKEN=<your sentry auth token>
+KINDE_CLIENT_ID=<your client id>
+KINDE_CLIENT_SECRET=<your client secret>
+KINDE_ISSUER_URL=<your issuer url>
+KINDE_SITE_URL=<your site url>
+KINDE_POST_LOGOUT_REDIRECT_URL=<your logout redirect url>
+KINDE_POST_LOGIN_REDIRECT_URL=<your login redirect url>
