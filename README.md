@@ -1,5 +1,6 @@
 # next-js-repair-shop
-This is the first ever fullstack application made by me using Next js
+This is the first ever fullstack application made by me using Next js.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -36,3 +37,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+Auth info:
+* This project having a email login. But for the roles and permission the signup is disabled in kinde.com level
+* Added the 3 usernames based on roles and permission
+    1. user name: test_admin, password: abcd@1234
+    2. user name: test_manager, password: abcd@1234
+    3. user name: test_user, password: abcd@1234
