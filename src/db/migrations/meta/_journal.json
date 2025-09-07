@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1757246987983,
+      "tag": "0000_abandoned_pretty_boy",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1757247101549,
+      "tag": "0001_young_christian_walker",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1757247582165,
+      "tag": "0002_daffy_chronomancer",
+      "breakpoints": true
+    }
+  ]
+}
