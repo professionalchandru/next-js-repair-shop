@@ -4,7 +4,17 @@ import { config } from 'dotenv'
 
 config({ path: '.env.local' })
 
-const sql = neon(process.env.DATABASE_URL!)
+// For development: disable SSL certificate validation
+if (process.env.NODE_ENV === 'development') {
+    process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
+}
+
+// Configure neon with SSL options for development
+const sql = neon(process.env.DATABASE_URL!, {
+    fetchOptions: {
+        cache: 'no-store',
+    },
+})
 
 // const db = drizzle(sql, {logger: true})
 const db = drizzle(sql)
