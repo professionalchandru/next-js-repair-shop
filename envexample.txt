@@ -6,3 +6,6 @@ KINDE_SITE_URL=<your site url>
 KINDE_POST_LOGOUT_REDIRECT_URL=<your logout redirect url>
 KINDE_POST_LOGIN_REDIRECT_URL=<your login redirect url>
 DATABASE_URL="postgresql://<user>:<password>@<endpoint_hostname>.neon.tech:<port>/<dbname>?sslmode=require&channel_binding=require"
+KINDE_DOMAIN=<your own>
+KINDE_MANAGEMENT_CLIENT_ID=<your own>
+KINDE_MANAGEMENT_CLIENT_SECRET=<your own>

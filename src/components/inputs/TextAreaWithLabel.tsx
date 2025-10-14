@@ -18,12 +18,14 @@ type Props<S> = {
     fieldTitle: string;
     nameInSchema: keyof S & string;
     className?: string;
+    disabled?: boolean;
 } & TextareaHTMLAttributes<HTMLTextAreaElement>;
 
 export function TextAreaWithLabel<S>({
     fieldTitle,
     nameInSchema,
     className,
+    disabled = false,
     ...props
 }: Props<S>) {
     const form = useFormContext();
@@ -44,7 +46,8 @@ export function TextAreaWithLabel<S>({
                     <FormControl>
                         <Textarea
                             id={nameInSchema}
-                            className={className}
+                            className={`w-full max-w-xs disabled:text-blue-500 dark:disabled:text-yellow-300 disabled:opacity-75 ${className}`}
+                            disabled={disabled}
                             {...props}
                             {...field}
                         />
