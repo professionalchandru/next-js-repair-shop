@@ -1,1 +1,0 @@
-ALTER TABLE "customers" RENAME COLUMN "text" TO "notes";
