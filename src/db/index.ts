@@ -2,10 +2,10 @@ import { neon } from '@neondatabase/serverless'
 import { drizzle } from 'drizzle-orm/neon-http'
 import { config } from 'dotenv'
 
-config({ path: '.env.local' })
 
 // For development: disable SSL certificate validation
 if (process.env.NODE_ENV === 'development') {
+    config({ path: '.env.local' })
     process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
 }
 
