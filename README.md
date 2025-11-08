@@ -49,25 +49,25 @@ This project uses **Kinde** for secure authentication.
 
 ### 1. **Auth**
 
-* Secure login via **Kinde (Email + Code / Username + Password)**
-* Role-based authorization with restricted access for non-admin users
+-   Secure login via **Kinde (Email + Code / Username + Password)**
+-   Role-based authorization with restricted access for non-admin users
 
 ### 2. **Customer Management**
 
-* Create, view, and manage customer records
-* Admins and managers can **toggle active status**
+-   Create, view, and manage customer records
+-   Admins and managers can **toggle active status**
 
 ### 3. **Ticket Management**
 
-* Create and manage tickets for customers
-* Assign techs (by managers/admins)
-* Techs can update **only their assigned tickets**
-* Includes **search, filters, sorting, and pagination**
+-   Create and manage tickets for customers
+-   Assign techs (by managers/admins)
+-   Techs can update **only their assigned tickets**
+-   Includes **search, filters, sorting, and pagination**
 
 ### 4. **Role-Based Access**
 
-* Permissions enforced both on **frontend** and **server-side (SSR)**
-* Protected routes and SSR data fetching with role validation
+-   Permissions enforced both on **frontend** and **server-side (SSR)**
+-   Protected routes and SSR data fetching with role validation
 
 ---
 
@@ -75,10 +75,10 @@ This project uses **Kinde** for secure authentication.
 
 ### 🪜 Prerequisites
 
-* Node.js 18+
-* Postgres Database (Neon recommended)
-* Kinde Account (for Auth setup)
-* Sentry Account (for Error Tracking)
+-   Node.js 18+
+-   Postgres Database (Neon recommended)
+-   Kinde Account (for Auth setup)
+-   Sentry Account (for Error Tracking)
 
 ---
 
@@ -86,33 +86,33 @@ This project uses **Kinde** for secure authentication.
 
 1. **Clone the repository**
 
-   ```bash
-   git clone https://github.com/<your-username>/ticket-management-app.git
-   cd ticket-management-app
-   ```
+    ```bash
+    git clone https://github.com/<your-username>/ticket-management-app.git
+    cd ticket-management-app
+    ```
 
 2. **Install dependencies**
 
-   ```bash
-   npm install
-   ```
+    ```bash
+    npm install
+    ```
 
 3. **Setup environment variables**
 
-   * Create a `.env.local` file at the project root
-   * Copy contents from `.env.example`
-   * Fill in your **Kinde**, **Neon**, and **Sentry** credentials
+    - Create a `.env.local` file at the project root
+    - Copy contents from `.env.example`
+    - Fill in your **Kinde**, **Neon**, and **Sentry** credentials
 
 4. **Run the development server**
 
-   ```bash
-   npm run dev
-   ```
+    ```bash
+    npm run dev
+    ```
 
 5. **Open the app**
 
-   * Visit: [http://localhost:3000/login](http://localhost:3000/login)
-   * Login using provided test credentials
+    - Visit: [http://localhost:3000/login](http://localhost:3000/login)
+    - Login using provided test credentials
 
 ---
 
@@ -139,7 +139,30 @@ You can deploy your own version with a single click:
 ---
 
 ## 📸 Screenshots (Optional)
-* Login Page
-* Dashboard View
-* Ticket Table
-* Customer Management Page
+
+-   Manager Ticket Edit / assign view
+    ![alt text](<./screenshots/Pasted Graphic 11-1.png>)
+
+-   Manager Ticket Create View
+    ![alt text](<./screenshots/Pasted Graphic 13.png>)
+
+-   Manager Customer Create/Edit View
+    ![alt text](<./screenshots/Pasted Graphic 12.png>)
+
+-   Ticket table view
+    ![alt text](<./screenshots/Pasted Graphic 7.png>)
+
+-   User Ticket view (Other user assigned ticket)
+    ![alt text](<./screenshots/Pasted Graphic 9.png>)
+
+-   user ticket create/Edit view
+    ![alt text](<./screenshots/Pasted Graphic 10.png>)
+
+-   User customer create view
+    ![alt text](<./screenshots/New Customer Form.png>)
+
+-   User customer edit view
+    ![alt text](<./screenshots/Pasted Graphic 8.png>)
+
+-   Customer table view
+    ![alt text](<./screenshots/Pasted Graphic 5.png>)
