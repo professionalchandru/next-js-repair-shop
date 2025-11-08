@@ -139,9 +139,6 @@ You can deploy your own version with a single click:
 ---
 
 ## 📸 Screenshots (Optional)
-
-You can include:
-
 * Login Page
 * Dashboard View
 * Ticket Table
