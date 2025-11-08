@@ -138,7 +138,7 @@ You can deploy your own version with a single click:
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots
 
 -   Manager Ticket Edit / assign view
     ![alt text](<./screenshots/Pasted Graphic 11-1.png>)
